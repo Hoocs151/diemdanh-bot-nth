@@ -1,0 +1,44 @@
+{
+  "name": "discord-bang-chien-bot",
+  "version": "1.1.0",
+  "description": "Bot Discord điểm danh thành viên tham gia bang chiến - Production Ready",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "db:init": "node src/database/init.js",
+    "db:backup": "node src/database/backup.js",
+    "backup": "node src/services/backupService.js",
+    "lint": "eslint src/ --ext .js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "bang-chien",
+    "diem-danh",
+    "vng"
+  ],
+  "author": "Senior Discord Bot Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cron-parser": "^5.5.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "googleapis": "^140.0.0",
+    "luxon": "^3.5.0",
+    "uuid": "^11.0.4"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.17.0",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

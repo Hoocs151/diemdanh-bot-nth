@@ -1,0 +1,48 @@
+.env
+.env.production
+.env.local
+
+# Database
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+logs/
+*.log
+
+# Backups
+backups/
+*.bak
+
+# Credentials
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Docker
+.docker/
+
+# Test coverage
+coverage/
+
+# Build
+dist/
+build/
+
+# Misc
+*.tmp
+*.temp
