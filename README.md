@@ -29,7 +29,6 @@ Bot điểm danh bang chiến giúp bang hội/game quản lý danh sách thành
 - ✅ 7 phái: Cửu Linh, Thần Tướng, Thiết Y, Toái Mộng, Long Ngâm, Tố Vấn, Huyết Hà
 - ✅ Khóa/mở/khóa phiên bằng admin
 - ✅ Xuất danh sách theo nhiều định dạng (Discord, CSV, **Google Sheets**)
-- ✅ **DM notification** cho user khi phiên chốt/reset/khóa
 - ✅ Audit log đầy đủ mọi thao tác
 - ✅ Chống spam & debounce, **rate limit slash commands**
 - ✅ **Phân quyền 3 cấp**: Admin > Officer > Member

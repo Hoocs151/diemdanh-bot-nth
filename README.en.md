@@ -29,7 +29,6 @@ Bang Chien Bot helps guilds/games manage member attendance lists with features:
 - ✅ 7 Factions: Cửu Linh, Thần Tướng, Thiết Y, Toái Mộng, Long Ngâm, Tố Vấn, Huyết Hà
 - ✅ Lock/unlock/close sessions via admin
 - ✅ Export attendance lists in multiple formats (Discord, CSV, **Google Sheets**)
-- ✅ **DM notification** to users when session is closed/reset/locked
 - ✅ Complete audit log for all actions
 - ✅ Spam prevention & debounce, **rate limit slash commands**
 - ✅ **3-tier Permission System**: Admin > Officer > Member
